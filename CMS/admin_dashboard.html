@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-100 h-screen flex flex-col items-center">
+
+    <header class="bg-gray-800 text-white w-full py-4 text-center">
+        <h1 class="text-3xl">Admin Dashboard</h1>
+        <nav>
+            <ul class="flex justify-center space-x-4">
+                <li><a href="index.html" class="text-white hover:underline">Home</a></li>
+                <li><a href="about.html" class="text-white hover:underline">About</a></li>
+                <li><a href="department.html" class="text-white hover:underline">Departments</a></li>
+                <li><a href="admin_login.html" class="text-white hover:underline">Admin Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="w-full max-w-4xl bg-white shadow-md rounded p-8 mt-10">
+        <h2 class="text-2xl font-bold mb-4">Welcome, Admin!</h2>
+        <p class="mb-6">This is your dashboard. Manage the website content and settings here.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-gray-200 p-4 rounded">
+                <h3 class="font-bold text-xl">Manage Users</h3>
+                <p class="mt-2">Add, edit, or remove users from the system.</p>
+                <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">Manage Users</button>
+            </div>
+            <div class="bg-gray-200 p-4 rounded">
+                <h3 class="font-bold text-xl">View Reports</h3>
+                <p class="mt-2">Access various reports and analytics.</p>
+                <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded">View Reports</button>
+            </div>
+            <!-- Additional sections can be added here -->
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white w-full py-4 text-center mt-auto">
+        <p>&copy; 2024 College Management System. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
